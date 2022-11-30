@@ -1,0 +1,9 @@
+@media (min-width: 576px){
+    #resolution{
+        background-color: aquamarine;
+    }
+    
+    #resolution::after{
+        content: "576 Small";
+    }
+}

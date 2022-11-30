@@ -1,0 +1,9 @@
+@media (min-width: 1400px){
+    #resolution{
+        background-color: red;
+    }
+    
+    #resolution::after{
+        content: "XXLarge 1400px";
+    }
+}

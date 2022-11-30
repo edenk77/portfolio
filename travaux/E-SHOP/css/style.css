@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: 'Gilroy','sans-serif';
+    background-color:black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: white;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+nav ul a:hover:before{
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+article{
+   text-align: center;
+   position: relative;
+   top: 180px;
+}
+
+
+
+video {
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-wrapper {
+    
+    border: 2px solid #000;
+    width: 1440px;
+    height: 453px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article h6{
+    margin: 0;
+    font-size: 20px;
+}
+
+article h1{
+    font-size: 250px;
+    margin: 0;
+    line-height: 0.9;
+}
+
+/* MENU COLLECTION */
+
+.menucollection{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 16px;
+    background-color: tomato;
+    height: 630px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+.menucards1{
+    display: inline-block;
+    background-color: turquoise;
+    width: 337px;
+    object-fit: cover;
+    height: 630px;
+    overflow: hidden;
+}
+
+.imageoverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 630px;
+    background: rgba(45, 44, 44, 0.543);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.imageoverlay:hover{
+    opacity: 1;
+}
+
+.imageoverlay_text{
+    font-size: 80px;
+}
+
+.menucards2{
+    background-color: turquoise;
+    width: 337px;
+    object-fit: cover;
+    height: 630px;
+    overflow: hidden;
+}
+
+.menucards3{
+    background-color: turquoise;
+    width: 337px;
+    object-fit: cover;
+    height: 630px;
+    overflow: hidden;
+}
+
+.menucards4{
+    width: 337px;
+    object-fit: cover;
+    height: 630px;
+    overflow: hidden;
+}
+
+.menucards1 img{
+    height: 640px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menucards2 img{
+    height: 640px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menucards3 img{
+    height: 640px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menucards4 img{
+    height: 640px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* BOYS */
+
+.corps{
+    margin: 20px;  
+}
+
+.container{
+    display: flex;
+    position: relative;
+    top: 16px;
+    padding: 10px;
+}
+
+.detailcard{
+    background-color: white;
+    width: 480px;
+    height: 360px;
+    display: flex;
+    color: black;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.detailcard_gauche{
+    width: 50%;
+    object-fit: contain;
+    max-height: 100% ;
+    max-width: 100%;
+}
+
+
+
+.detailcard_gauche img{
+    height: 455px;
+    object-fit: cover;
+    max-height: 100% ;
+    max-width: 100%;
+}
+
+.detailcard_droite{
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+.detailcard_droite h5{
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.detailcard_droite p{
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.arrow img{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 185px;
+}

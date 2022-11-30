@@ -1,0 +1,9 @@
+@media (min-width: 768px){
+    #resolution{
+        background-color: rgb(0, 128, 255);
+    }
+    
+    #resolution::after{
+        content: "Medium 768";
+    }
+}

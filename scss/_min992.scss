@@ -1,0 +1,9 @@
+@media (min-width: 992px){
+    #resolution{
+        background-color: rgb(251, 213, 0);
+    }
+    
+    #resolution::after{
+        content: "Large 992";
+    }
+}

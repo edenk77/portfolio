@@ -5,7 +5,7 @@
 }
 
 #resolution::after {
-    content: "Extra small devices (large desktops, 1200px and up)";
+    content: "Extra small devices (large desktops, 1200px and up) - col";
 }
 
 @font-face{
@@ -380,7 +380,7 @@ footer ul li a img{
 
 // PAGE TRAVAUX -------------
 .code-animation {
-width: 20rem;
+width: 10rem;
 height: 20rem;
 }
 
@@ -459,8 +459,8 @@ margin-left: 50px;
 }
 
 .imagegauche img{
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin-left: 67px;
 }
 
@@ -526,9 +526,9 @@ margin-left: 50px;
 }
 
 .imagegauche img{
-  height: 400px;
-  width: 400px;
-  margin-left: 67px;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
 }
 
 .code-animation{

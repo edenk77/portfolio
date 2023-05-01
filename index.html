@@ -24,17 +24,26 @@
         <div class="loader">Chargement...</div>
       </div> -->
       
-    <!-- <div id="resolution"></div> -->
+    <div id="resolution"></div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="travaux.html">Travaux</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html">Contact</a>
+    </div>
 
     <header>
         <a class="logo" href="index.html"><h1 class="title">Eden.</h1></a>
-        <nav>
+        <nav class="navigbar">
             <ul>
                 <li><a href="travaux.html">Travaux</a></li>
                 <li><a href="apropos.html">A propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
 
    
@@ -42,7 +51,7 @@
     <div class="container-fluid sectionindex">
         <div class="container">
             <div class="row">
-                <div class="col-6 cartes">
+                <div class="col-sm-6 cartes">
                     <div class="imagecard">
                         <img src="img/yale_screen.jpg" alt="Card">
                     </div>
@@ -50,7 +59,7 @@
                     <p>Dans le cadre d'un travail de remise à niveau d'un site web en UI Design, il nous a été demandé de refaire le site de l'école d'art "YALE School Of Art". Le but était de repenser le design du site web qui était malheureusement mélangé et illisible en termes d'informations. </p>
                     <a href="https://xd.adobe.com/embed/de09f572-da42-4adc-9bef-3ab9d97cdd39-8b5a/" frameborder="0" allowfullscreen>Voir plus</a>   
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6 cartes">
                     <div class="imagecard">
                         <img src="img/checkcard_screen.jpg" alt="Card">
                     </div>
@@ -58,7 +67,7 @@
                     <p>Une simulation d'un compte bancaire effectif, pouvoir gérer son argent et visualiser ses dépenses, tel est le but de la Check Card. Un début d'interface que j'ai réalisé dans mon temps libre. </p>
                     <a href="https://xd.adobe.com/embed/8e4cbbeb-1509-4a3b-988c-2489ff09412b-db1f/" frameborder="0" allowfullscreen>Voir plus</a>   
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6 cartes">
                     <div class="imagecard">
                         <img src="img/befxl_screen.png" alt="Card">
                     </div>
@@ -66,7 +75,7 @@
                     <p>Dans le cadre d'un projet demandé par une école bruxelloise, nous avons réalisé le wireframe d'une plateforme numérique de pratiques pédagogiques en formation initiale des enseignants. Sous base de quelques recommandations, nous y avions réalisé un une charte graphique, un wireframe high quality et un prototype. </p>
                     <a href="https://befxl-fullpage.onrender.com">Voir plus</a>   
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6 cartes">
                     <div class="imagecard">
                         <img src="img/calendar_screen.png" alt="Card">
                     </div>
@@ -125,7 +134,7 @@
         
     </div>
 
-    <footer>
+    <footer class="footergrey col-sm12">
         <h3>Etudiant en Front & Back End</h3>
         <p>Je suis un étudiant en infographie web cherchant à se spécialiser dans l'UI (User Interface), l'UX (User Experience) et dans le développement Front-End.</p>
         <ul>

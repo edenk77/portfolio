@@ -26,15 +26,25 @@
       
     <!-- <div id="resolution"></div> -->
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="travaux.html">Travaux</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
     <header>
-        <a class="logo" href="index.html"><img src="img/Edenlogo.png" alt=""></a>
-        <nav>
+
+        <a class="logo" href="index.html"><h1 class="title">Eden.</h1></a>
+        <nav class="navigbar">
             <ul>
                 <li><a href="travaux.html">Travaux</a></li>
-                <li class="active"><a href="apropos.html">A propos</a></li>
+                <li><a href="apropos.html">A propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
 
     <div class="container-fluid apropos">
@@ -45,7 +55,7 @@
                         <img src="img/Edencover.png" alt="">
                     
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-sm-12">
                     
                         <h1 class="title">Hello! Je suis Eden</h1>
                         <p class="align-middle">Jeune étudiant, jamais loin de son ordinateur pour faire de la musique ou du design, c'est après mes études secondaires que je me redécouvre dans le web. J'ai pendant longtemps travaillé mon côté artistique et il me fallait un moyen de le combiner avec le web.<br> C'est ainsi que mes découvertes de <span class="fst-italic">Figma</span> et <span class="fst-italic">Adobe XD</span> m'ont poussé à m'orienter vers la partie design d'un site web. L'UX (User Experience) et l'UI (User Interface) sont deux parties complémentaires que je comprendrais durant mes années d'études. Le savoir du Front-End et du Back-End m'aideront à travailler en développeur FullStack pour mieux comprendre ceux qui sont, comme moi, dans le monde du Web.
